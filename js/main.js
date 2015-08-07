@@ -108,7 +108,6 @@ function main_fadeIn(){
 	$('.title').css('z-index', '350');
 	$('.box .content').css('display', 'none');
 	$('.main').css('z-index', '300');
-	console.log('main_fadeIn()');
 	$('.about').fadeIn(1000, function(){
 		$('.proyects').fadeIn(1000, function(){
 			$('.news').fadeIn(1000, function(){

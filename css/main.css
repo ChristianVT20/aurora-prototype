@@ -87,6 +87,8 @@ a:link {
 .external-container{
     width: 100vw;
     height: 100vh;
+    display: -webkit-flex;
+    display: -ms-flex;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -103,6 +105,7 @@ a:link {
       margin: 0;
       padding: 10px; }
     .pr-column1 .external-container .internal-container, .pr-column3 .external-container .internal-container, .pr-column6 .external-container .internal-container, .pr-column8 .external-container .internal-container {
+      width: 80%;
       margin: 15px 15px; }
       .pr-column1 .external-container .internal-container img, .pr-column3 .external-container .internal-container img, .pr-column6 .external-container .internal-container img, .pr-column8 .external-container .internal-container img {
         max-width: 100%;

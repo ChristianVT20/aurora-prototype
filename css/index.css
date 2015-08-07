@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;}
+
+body{
+	font-family: helvetica, arial;
+	background: url('../img/fondo.jpg'), #000;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#particles-js{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.6);}
+
+.content{
+	color: #fff;
+	position: relative;
+	text-align: center;}
+	.content .brand{
+		padding: 70px 0 20px 0;
+		font-size: 1.2em;}
+	.content .start{
+		margin: 20px auto;
+		width: 140px;
+		height: 60px;
+		border: solid 1px #fff;
+		-webkit-transition: all 1s ease;
+     	-moz-transition: all 1s ease;
+       	-o-transition: all 1s ease;
+      	-ms-transition: all 1s ease;
+      	transition: all 1s ease;}
+		.content .start:hover{
+			-webkit-transform: scale(1.2,1.2);
+     		-moz-transform: scale(1.2,1.2);
+       		-o-transform: scale(1.2,1.2);
+      		-ms-transform: scale(1.2,1.2);
+          	transform: scale(1.2,1.2);}
+		.content .start h3{
+			color: #fff;
+			padding: auto;
+			line-height: 55px;}
+		.content .start a:link{
+			text-decoration: none;
+			outline: 0;}
